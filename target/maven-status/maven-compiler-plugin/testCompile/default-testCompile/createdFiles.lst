@@ -1,9 +1,1 @@
-base\BasePage.class
-base\BaseTest.class
-pages\ProductsPage.class
-utilities\Utils.class
 com\browserstack\LoginTest.class
-driver\AppFactory.class
-pages\LoginPage.class
-driver\AppDriver.class
-utilities\Utils$ScrollDirection.class

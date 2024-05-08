@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="46916" started-at="2024-05-08T05:20:25Z" finished-at="2024-05-08T05:21:12Z">
+  <suite name="All Test Suite" duration-ms="55318" started-at="2024-05-08T06:56:03Z" finished-at="2024-05-08T06:56:58Z">
     <groups>
     </groups>
-    <test name="D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0" duration-ms="46916" started-at="2024-05-08T05:20:25Z" finished-at="2024-05-08T05:21:12Z">
+    <test name="D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0" duration-ms="55318" started-at="2024-05-08T06:56:03Z" finished-at="2024-05-08T06:56:58Z">
       <class name="com.browserstack.LoginTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.browserstack.LoginTest@584f54e6]" name="beforeClass" is-config="true" duration-ms="30386" started-at="2024-05-08T12:20:25Z" finished-at="2024-05-08T12:20:55Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.browserstack.LoginTest@32811494]" name="beforeClass" is-config="true" duration-ms="32253" started-at="2024-05-08T13:56:03Z" finished-at="2024-05-08T13:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="loginFail()[pri:1, instance:com.browserstack.LoginTest@584f54e6]" name="loginFail" duration-ms="6734" started-at="2024-05-08T12:20:55Z" finished-at="2024-05-08T12:21:02Z">
+        <test-method status="PASS" signature="loginFail()[pri:1, instance:com.browserstack.LoginTest@32811494]" name="loginFail" duration-ms="11854" started-at="2024-05-08T13:56:35Z" finished-at="2024-05-08T13:56:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFail -->
-        <test-method status="PASS" signature="loginPass()[pri:2, instance:com.browserstack.LoginTest@584f54e6]" name="loginPass" duration-ms="8671" started-at="2024-05-08T12:21:03Z" finished-at="2024-05-08T12:21:12Z">
+        <test-method status="PASS" signature="loginPass()[pri:2, instance:com.browserstack.LoginTest@32811494]" name="loginPass" duration-ms="10398" started-at="2024-05-08T13:56:48Z" finished-at="2024-05-08T13:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPass -->

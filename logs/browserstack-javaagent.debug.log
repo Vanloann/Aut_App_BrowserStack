@@ -1311,3 +1311,216 @@
 12:21:23.377 [Thread-1] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/6ee2cbde56295953031cb27bb944f9dc85708c15
 12:21:23.377 [Thread-1] INFO  c.b.config.BrowserStackConfig - INFO
 12:21:23.377 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  6) is not same as client side buildName(browserstack-build-1 #6)
+13:55:40.380 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:55:40.384 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.3.0
+13:55:40.687 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=D\:\\AUT_LoanTTV\\Aut_App_BrowserStack\\testng-appium-app-browserstack-sdk\\android\\testng-examples, user.dir=D\:\\AUT_LoanTTV\\Aut_App_BrowserStack\\testng-appium-app-browserstack-sdk\\android\\testng-examples, localrepository=C\:\\Users\\admin\\.m2\\repository}
+13:55:40.688 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+13:55:40.782 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:55:41.287 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+13:55:41.287 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+13:55:41.307 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3874043600954978407tmp
+13:55:41.307 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3874043600954978407tmp
+13:55:41.307 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.23
+13:55:41.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://6a53b0a39a8dbb61883552cb0d4c39ec9efbe2bc]
+13:55:41.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:55:42.737 [Thread-2] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+13:55:43.761 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1020ms
+13:55:44.817 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 1052ms
+13:55:46.668 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 1848ms
+13:55:46.668 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+13:55:46.697 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"yuD4TEGXhdHMwEWREfNb","userName":"vanloan_1qytur","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"1.8.0_251","appiumVersion":"7.3.0","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"47c34058-1906-40d4-b952-db74eaa9a7b2","buildIdentifier":"#7","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng, junit4","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.23","hostname":"DESKTOP-7U2JTDF","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"3.141.59","seleniumVersion":"3.141.59"}}
+13:55:47.921 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:55:47.921 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:55:54.552 [ForkJoinPool.commonPool-worker-2] INFO  c.b.config.BrowserStackConfig - WARN
+13:55:54.604 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:55:54.603Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+13:55:54.604 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+13:55:56.499 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:55:56.511 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : qddvlmynhqr98gght7biojuihzzlrub5ggjo1qoj
+13:55:56.511 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:55:56.511Z][ OBSERVABILITY ] Build creation successfull!
+
+13:55:56.511 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:55:56.517 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 08_5_1355_DESKTOP_7U2JTDF_9QsT
+13:56:02.818 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:56:03.581 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:03.581Z][ OBSERVABILITY ] Processing Logs patching stream
+13:56:03.587 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:03.586Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:03.606 [beforeClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.LoginTest 
+13:56:03.606 [beforeClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, TestClass :: com\browserstack\LoginTest
+13:56:03.634 [beforeClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\src\test\java\com\browserstack\LoginTest.java, fileSeparator :: \, AbsolutePath :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, File.Separator :: \
+13:56:03.635 [beforeClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-examples\src\test\java\com\browserstack\LoginTest.java, Absolute Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\.., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android 
+13:56:03.636 [beforeClass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:03.636Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+13:56:03.640 [beforeClass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:03.640Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:05.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:05.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 1715151365593
+
+13:56:05.595 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:05.595Z][ OBSERVABILITY ] Processing Batch 3
+
+13:56:05.595 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:56:06.049 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:56:06.050 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:56:06.050Z][ OBSERVABILITY ] Batch event successfull!
+
+13:56:09.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:09.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+13:56:13.594 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:13.594Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+13:56:17.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:17.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+13:56:21.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:21.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+13:56:25.592 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:25.592Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+13:56:27.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:27.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+13:56:31.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:31.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+13:56:35.592 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:35.592Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+13:56:35.723 [beforeClass@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+13:56:35.753 [beforeClass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:35.753Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:35.753 [beforeClass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:35.753Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:35.754 [beforeClass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:35.754Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:35.855 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.LoginTest 
+13:56:35.855 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, TestClass :: com\browserstack\LoginTest
+13:56:35.867 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\src\test\java\com\browserstack\LoginTest.java, fileSeparator :: \, AbsolutePath :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, File.Separator :: \
+13:56:35.867 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-examples\src\test\java\com\browserstack\LoginTest.java, Absolute Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\.., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android 
+13:56:35.878 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:35.878Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+13:56:37.594 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:37.594Z][ OBSERVABILITY ] Time Since Last Batch Processed 2002
+
+13:56:37.594 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:37.594Z][ OBSERVABILITY ] Processing Batch 4
+
+13:56:37.594 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:56:37.956 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:56:37.972 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:56:37.972Z][ OBSERVABILITY ] Batch event successfull!
+
+13:56:41.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:41.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+13:56:43.528 [loginFail@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:43.528Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:43.594 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:43.594Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+13:56:43.594 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:43.594Z][ OBSERVABILITY ] Processing Batch 1
+
+13:56:43.594 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:56:43.998 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:56:44.032 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:56:44.032Z][ OBSERVABILITY ] Batch event successfull!
+
+13:56:44.755 [loginFail@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:44.755Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:46.851 [loginFail@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:46.851Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:47.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:47.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+13:56:47.593 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:47.593Z][ OBSERVABILITY ] Processing Batch 2
+
+13:56:47.593 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:56:47.884 [loginFail@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.LoginTest 
+13:56:47.884 [loginFail@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, TestClass :: com\browserstack\LoginTest
+13:56:47.895 [loginFail@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\src\test\java\com\browserstack\LoginTest.java, fileSeparator :: \, AbsolutePath :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, File.Separator :: \
+13:56:47.895 [loginFail@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-examples\src\test\java\com\browserstack\LoginTest.java, Absolute Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\.., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android 
+13:56:47.903 [loginFail@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:47.903Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+13:56:47.904 [loginFail@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.LoginTest 
+13:56:47.904 [loginFail@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, TestClass :: com\browserstack\LoginTest
+13:56:47.916 [loginFail@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\src\test\java\com\browserstack\LoginTest.java, fileSeparator :: \, AbsolutePath :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, File.Separator :: \
+13:56:47.916 [loginFail@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-examples\src\test\java\com\browserstack\LoginTest.java, Absolute Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\.., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android 
+13:56:47.924 [loginFail@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:47.924Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+13:56:48.031 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:56:48.046 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:56:48.046Z][ OBSERVABILITY ] Batch event successfull!
+
+13:56:48.075 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.LoginTest 
+13:56:48.075 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, TestClass :: com\browserstack\LoginTest
+13:56:48.086 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\src\test\java\com\browserstack\LoginTest.java, fileSeparator :: \, AbsolutePath :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, File.Separator :: \
+13:56:48.086 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-examples\src\test\java\com\browserstack\LoginTest.java, Absolute Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\.., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android 
+13:56:48.094 [D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:48.094Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+13:56:51.593 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:51.593Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+13:56:51.593 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:51.593Z][ OBSERVABILITY ] Processing Batch 3
+
+13:56:51.593 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:56:52.347 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:56:52.383 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:56:52.383Z][ OBSERVABILITY ] Batch event successfull!
+
+13:56:55.127 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:55.127Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:55.594 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:55.594Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+13:56:55.594 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:55.594Z][ OBSERVABILITY ] Processing Batch 1
+
+13:56:55.594 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:56:55.900 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:56:55.903 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:56:55.902Z][ OBSERVABILITY ] Batch event successfull!
+
+13:56:57.637 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:57.637Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:58.639 [loginPass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.LoginTest 
+13:56:58.639 [loginPass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, TestClass :: com\browserstack\LoginTest
+13:56:58.658 [loginPass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\src\test\java\com\browserstack\LoginTest.java, fileSeparator :: \, AbsolutePath :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples, File.Separator :: \
+13:56:58.658 [loginPass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-examples\src\test\java\com\browserstack\LoginTest.java, Absolute Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\.., Normalized Path :: D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android 
+13:56:58.675 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:58.675Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+13:56:58.918 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:58.918Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:58.918 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:58.918Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:58.918 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:58.918Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:56:58.918 [loginPass@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+13:56:59.592 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:59.592Z][ OBSERVABILITY ] Time Since Last Batch Processed 3998
+
+13:56:59.592 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:56:59.592Z][ OBSERVABILITY ] Processing Batch 5
+
+13:56:59.592 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:57:00.041 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:57:00.082 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:57:00.082Z][ OBSERVABILITY ] Batch event successfull!
+
+13:57:01.965 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:01.965Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:57:01.973 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:01.973Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:57:01.977 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:01.977Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:57:01.980 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:01.980Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:57:01.982 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:01.982Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:57:01.997 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:01.997Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+13:57:02.015 [Thread-1] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+13:57:02.016 [Thread-1] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+13:57:02.016 [Thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:02.016Z][ OBSERVABILITY ] Processing stop observability
+13:57:02.016 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:02.016Z][ OBSERVABILITY ] Processing Batch 6
+
+13:57:02.016 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+13:57:02.401 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:57:02.464 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-05-08T06:57:02.464Z][ OBSERVABILITY ] Batch event successfull!
+
+13:57:02.464 [Thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-05-08T06:57:02.464Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+13:57:02.464 [Thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/qddvlmynhqr98gght7biojuihzzlrub5ggjo1qoj/stop
+13:57:02.869 [Thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+13:57:02.873 [Thread-1] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+13:57:02.873 [Thread-1] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qddvlmynhqr98gght7biojuihzzlrub5ggjo1qoj to view build report, insights, and many more debugging information all at one place!
+
+13:57:04.866 [Thread-1] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+13:57:04.904 [Thread-1] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"yuD4TEGXhdHMwEWREfNb","userName":"vanloan_1qytur","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"1.8.0_251","appiumVersion":"7.3.0","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":412,"retransformClasses":413},"language":"java","sdkRunId":"47c34058-1906-40d4-b952-db74eaa9a7b2","buildIdentifier":"#7","userFramework":"testng","testhub_uuid":"qddvlmynhqr98gght7biojuihzzlrub5ggjo1qoj","detectedAppiumVersion":"null","detectedDependencies":"testng, junit4","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.23","hostname":"DESKTOP-7U2JTDF","measures":{"local:start":6302,"sdk:setup":22480,"local:stop":1987},"language_framework":"java_testng","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"qddvlmynhqr98gght7biojuihzzlrub5ggjo1qoj","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"failedCount":0,"sentCount":1,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"sentCount":1},"passed":{"failedCount":0,"sentCount":1,"triggeredCount":1}},"logEvents":{"failedCount":0,"sentCount":19,"triggeredCount":19,"log":{"failedCount":0,"sentCount":19,"triggeredCount":19}},"testEvents":{"started":{"failedCount":0,"sentCount":2,"triggeredCount":2},"finished":{"triggeredCount":2,"failedCount":0,"sentCount":2},"passed":{"failedCount":0,"sentCount":2,"triggeredCount":2}},"cbtSessionEvents":{"failedCount":0,"sentCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"detectedSeleniumVersion":"3.141.59","seleniumVersion":"3.141.59"}}
+13:57:05.818 [Thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:57:10.804 [Thread-1] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/d64edf802a35875f2bf89b7c1c5dd78093657ce9
+13:57:10.804 [Thread-1] INFO  c.b.config.BrowserStackConfig - INFO
+13:57:10.804 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  7) is not same as client side buildName(browserstack-build-1 #7)

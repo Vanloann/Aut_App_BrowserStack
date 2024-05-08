@@ -25,9 +25,15 @@ public class LoginTest extends BaseTest {
 
     @Test(priority = 1)
     public void loginFail() {
-//        loginPage.login("standard_user", "123");
-//        loginPage.verifyLoginFail();
+        loginPage.login("standard_user", "123");
+        loginPage.verifyLoginFail();
         Utils.scroll(Utils.ScrollDirection.DOWN, 0.5);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Utils.scroll(Utils.ScrollDirection.UP, 0.5);
     }
 
     @Test(priority = 2)
@@ -35,6 +41,6 @@ public class LoginTest extends BaseTest {
         loginPage.login("standard_user", "secret_sauce");
         productsPage.verifyTitleDisplayed();
         productsPage.clickSideBar();
-//        Utils.scroll(Utils.ScrollDirection.RIGHT, 0.6);
+        Utils.scroll(Utils.ScrollDirection.RIGHT, 0.6);
     }
 }

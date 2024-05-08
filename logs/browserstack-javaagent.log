@@ -100,3 +100,18 @@
 
 12:21:23.377 [Thread-1] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/6ee2cbde56295953031cb27bb944f9dc85708c15
 12:21:23.377 [Thread-1] INFO  c.b.config.BrowserStackConfig - INFO
+13:55:40.380 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+13:55:40.384 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.3.0
+13:55:40.687 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=D\:\\AUT_LoanTTV\\Aut_App_BrowserStack\\testng-appium-app-browserstack-sdk\\android\\testng-examples, user.dir=D\:\\AUT_LoanTTV\\Aut_App_BrowserStack\\testng-appium-app-browserstack-sdk\\android\\testng-examples, localrepository=C\:\\Users\\admin\\.m2\\repository}
+13:55:40.688 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\AUT_LoanTTV\Aut_App_BrowserStack\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+13:55:40.782 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:55:41.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://6a53b0a39a8dbb61883552cb0d4c39ec9efbe2bc]
+13:55:41.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:55:47.921 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:55:54.552 [ForkJoinPool.commonPool-worker-2] INFO  c.b.config.BrowserStackConfig - WARN
+13:55:56.511 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:56:02.818 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:57:02.873 [Thread-1] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qddvlmynhqr98gght7biojuihzzlrub5ggjo1qoj to view build report, insights, and many more debugging information all at one place!
+
+13:57:10.804 [Thread-1] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/d64edf802a35875f2bf89b7c1c5dd78093657ce9
+13:57:10.804 [Thread-1] INFO  c.b.config.BrowserStackConfig - INFO
