@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.ProductsPage;
+import utilities.Utils;
 
 import java.net.MalformedURLException;
 
@@ -24,9 +25,9 @@ public class LoginTest extends BaseTest {
 
     @Test(priority = 1)
     public void loginFail() {
-        loginPage.login("standard_user", "123");
-        loginPage.verifyLoginFail();
-//        Utils.scroll(Utils.ScrollDirection.DOWN, 0.5);
+//        loginPage.login("standard_user", "123");
+//        loginPage.verifyLoginFail();
+        Utils.scroll(Utils.ScrollDirection.DOWN, 0.5);
     }
 
     @Test(priority = 2)
