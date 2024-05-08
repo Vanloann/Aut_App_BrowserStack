@@ -1,0 +1,27 @@
+
+]
+-src/test/java/com/browserstack/FirstTest.java,e\d\ed8d03cd2a9e1a51cedca7e409a3a09c42ecb1f2
+]
+-src/test/java/com/browserstack/LocalTest.java,c\8\c8de2728f6a46879ca26bc6cee7743b64a3823ac
+@
+browserstack.yml,a\0\a0c961fde3118d58ada1c4f276e0bda3a0a1a3a1
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+^
+.src/test/java/com/browserstack/AppiumTest.java,1\0\109dbee90946be837f0793abae8485591190bcb4
+U
+%src/test/java/pages/ProductsPage.java,b\3\b30f36a5f5ea26936fdae68a4a4cb4f69960cec8
+R
+"src/test/java/pages/LoginPage.java,2\f\2febc867dad266b12f3cf09596e572e0dcf37dbf
+R
+"src/test/java/utilities/Utils.java,7\0\700b2922fbec0554e49738585fe44445c1e3bf36
+S
+#src/test/java/driver/AppDriver.java,4\8\482ea66ecaedc60a88f943ef68ce25403246c6a9
+]
+-src/test/java/com/browserstack/LoginTest.java,f\1\f1eeb42a84ed28b218ca9f50e85e984777f26161
+P
+ src/test/java/base/BasePage.java,5\f\5faaa882fee88217ec46385c3124bf0bb363b0f0
+P
+ src/test/java/base/BaseTest.java,b\7\b7db9501819294794071ed8490857b8ada13054d
+T
+$src/test/java/driver/AppFactory.java,5\1\51422ff15bee81faa8210bf699f2f5c7487913f5

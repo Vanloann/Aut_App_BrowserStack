@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]" parallel="tests">
+  <parameter name="platform" value="0"/>
+  <test verbose="2" name="D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="com.browserstack.LoginTest"/>
+    </classes>
+  </test> <!-- D:/AUT_LoanTTV/testng-appium-app-browserstack-sdk/android/testng-examples-0 -->
+</suite> <!-- Failed suite [All Test Suite] -->
